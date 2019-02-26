@@ -1,0 +1,88 @@
+/*MENU*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  font-family: arial;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* MENU - Muda a cor do link quando o cursor estiver em cima */
+li a:hover {
+  background-color: #111;
+}
+
+/*Títulos*/
+
+h1{
+    font-size: 150px;
+	text-align: center;
+	font-family: Courier New, monospace;
+	color: #7C1C1C;
+    background-color: #DBD5D5;
+    margin-top: 0%;
+}
+
+h4{
+	font-size: 30px;
+	text-align: center;
+}
+
+/*Texto*/
+
+p{
+    color: #5D6064;
+    font-size: 20px;
+}
+
+.texto{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+/*Imagem*/
+
+.foto{
+	float: right;
+	width: 30%;
+	text-align: center;
+	font-style: italic;
+	font-size: smaller;
+	text-indent: 0;
+	border: thin silver solid;
+	margin: 0.5em;
+	padding: 0.5em;
+
+}
+
+img{
+	width: 100%;
+}
+
+figcaption{
+	font-size: 15px;
+	font-family: arial;
+	text-align: center;
+}
+
+/* Imagem Menu */
+.imagem-menu{
+	display: flex; /* coloca as imagens uma ao lado da outra */
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-top: -5%;
+}
